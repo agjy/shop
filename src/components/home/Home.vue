@@ -43,15 +43,18 @@
       <van-swipe-item>4</van-swipe-item>
     </van-swipe>
     <div class="good-list">
-      <van-card
-        num="2"
-        tag="限时折扣"
-        price="2.00"
-        desc="描述信息"  
-        title="商品标题"
-        :thumb="imageURL"
-        origin-price="10.00"
-      />
+      <router-link to="/goods-detail">
+        <van-card
+          num="2"
+          tag="限时折扣"
+          price="2.00"
+          desc="描述信息"  
+          title="商品标题"
+          :thumb="imageURL"
+          origin-price="10.00"
+        />
+      </router-link>
+      
       <van-card
         num="2"
         tag="限时折扣"

@@ -43,9 +43,8 @@
       <van-swipe-item>4</van-swipe-item>
     </van-swipe>
     <div class="good-list">
-      <router-link to="/goods-detail">
+      <router-link to="/goods-detail/2">
         <van-card
-          num="2"
           tag="限时折扣"
           price="2.00"
           desc="描述信息"  
@@ -56,7 +55,6 @@
       </router-link>
       
       <van-card
-        num="2"
         tag="限时折扣"
         price="2.00"
         desc="描述信息"  
@@ -65,7 +63,6 @@
         origin-price="10.00"
       />
       <van-card
-        num="2"
         tag="限时折扣"
         price="2.00"
         desc="描述信息"  
@@ -74,7 +71,6 @@
         origin-price="10.00"
       />
       <van-card
-        num="2"
         tag="限时折扣"
         price="2.00"
         desc="描述信息"  
@@ -91,7 +87,7 @@ export default {
   data() {
     return {
       value: '',
-      imageURL: require('../../assets/lemon.jpg')
+      imageURL: require('../assets/lemon.jpg')
     }
   }
 }
